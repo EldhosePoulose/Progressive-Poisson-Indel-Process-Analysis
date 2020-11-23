@@ -1,0 +1,12 @@
+
+4.2 Simulating data using INDELible
+
+The INDELible is a software that allow us to simulate the molecular sequences with varying indel length using different parameters. INDELible v1.03 allows several options to the user to simulate data. More frameworks in INDELible v1.03 can be viewed in [6]. In this study, however, the following configuration is used:
+4.2.1 Simulation Settings
+• The data (amino acid sequences and true MSAs) is simulated using the same tree that is used in the simulation of PIP data (Section 4.1).
+• Tree Topology: Balanced, Symmetric tree with exponential branch lengths with tree rate 1/8.
+• The data is simulated using the WAG substitution matrix with initial 200 amino acid residues at the root.
+• The indel model is set to Power law distribution with parameters a = 1.7 and m = 20. In detail, the value of a is a decimal (a > 1) and m is an integer (m > 1), which represents the maximum indel length. Moreover, many studies has been conducted in the past about the indel length distribution. Empirical studies by Gonnet [8] suggest to follow a Zipfian (power law) distribution and the value for the parameter a best fit the data when the value of a ranges between 1.5 and 2. Therefore, we selected the value of a as a= 1.7. The value of m determines the maximum indel length at the root and this is set randomly to 20.
+• The indel rate is fixed to 0.05 (same deletion rate used in PIP simulation). In order to keep the insertion and deletion rate in an equilibrium state so that the MSA doesn’t shrink or grow rapidly.
+• To note, by setting the indel rate parameter value the simulation will run under same insertion and deletion rates. However, it is also possible to set different rates and different models for insertion and deletion events.
+• The number of replicates simulated is 100.

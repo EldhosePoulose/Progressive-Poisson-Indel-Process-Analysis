@@ -1,6 +1,6 @@
 Read Me
 
-What each folder contains/means
+What each folder contains
 ANALYSIS --> See GoalPriorwork.pdf for Goals (A1, A2, A3, A4)
 			 Each A1-A4 folder contains the scripts (R or Python), output figures, Qscore output files
 

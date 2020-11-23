@@ -1,0 +1,11 @@
+4.1 Simulating data using PIPJava 4.1.1 Simulation Settings
+We simulated the data (sequences, true alignments and trees) under PIP model using the PIPJava simulator using the following parameters:
+• Simulation residues: Amino Acid
+• Tree topology: Balanced, Symmetric tree with exponential branch lengths with tree rate 1/8
+• Number of Taxa/leaves: 8
+• Substitution model: WAG
+• Asymptotic expected sequence length (η): 200 aminoacid residues
+• Indel intensity (ζ): 0.5
+• Insertion rate (λ):10
+• Deletion rate (μ):0.05
+• Replicates: 100
