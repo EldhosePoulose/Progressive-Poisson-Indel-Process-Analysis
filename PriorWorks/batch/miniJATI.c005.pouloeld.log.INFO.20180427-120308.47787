@@ -1,0 +1,13 @@
+Log file created at: 2018/04/27 12:03:08
+Running on machine: c005
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0427 12:03:08.725030 47787 main.cpp:140] Execution started!
+I0427 12:03:08.762382 47787 main.cpp:206] alphabet:  DNA | gap-extention 1
+I0427 12:03:08.795456 47787 main.cpp:259] [Input tree parser] Number of leaves8
+I0427 12:03:08.797452 47787 main.cpp:537] model=K80+PIP(K80.kappa=2.000000000000,lambda=316.227766016838,mu=0.316227766017)
+I0427 12:03:08.797520 47787 main.cpp:556] [Alignment sequences] Starting MSA_t inference using Pro-PIP...
+I0427 14:50:23.007836 47787 main.cpp:564] [Alignment sequences] MSA_t inference using Pro-PIP terminated successfully!
+I0427 14:50:23.011766 47787 main.cpp:571] [Alignment sequences]	 The final alignment can be found in /scratch/IAS/AnisGroup/pouloeld/MiniJATIoutput/miniJATI_out_msa/msa_out4_40.fa
+I0427 14:50:23.015872 47787 main.cpp:588] [Alignment sequences] Alignment has likelihood: -9833.84
+I0427 14:50:23.492236 47787 main.cpp:736] [Output alignment]	 The final alignment can be found in /scratch/IAS/AnisGroup/pouloeld/MiniJATIoutput/miniJATI_out_msa/msa_out4_40.fa
+I0427 14:50:23.499408 47787 JATIApplication.cpp:78] miniJATI 0.1.1's done. Bye.

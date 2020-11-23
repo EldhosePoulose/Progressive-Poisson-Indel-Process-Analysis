@@ -1,0 +1,16 @@
+Read Me
+
+What each folder contains/means
+ANALYSIS --> See GoalPriorwork.pdf for Goals (A1, A2, A3, A4)
+			 Each A1-A4 folder contains the scripts (R or Python), output figures, Qscore output files
+
+batch --> batch run info
+
+params --> parameters required for miniJATI or ProPIP
+
+STEP1_TRUE_MSA_PIPJAVA and STEP2_TEST_MSA_MiniJATAI --> contains the sequences, output alignments.
+
+TREES_.1 --> all trees, naming and order is mentioned in report i.e Section 3.6.4
+
+
+

@@ -1,0 +1,9 @@
+Simulation Settings
+• Simulation residues: Nucleotides
+• Tree topology: i) perfectly balanced and ii) ladder topology
+• Number of Taxa/leaves: 8
+• Branch length: fixed branch lengths. 0.1, 0.01, 0.001
+• Substitution model: K80, where k = 4.0
+• Asymptotic expected sequence length (η): 1000 nucleotide residues 
+• Indel intensity (ζ): 10, 100, 200
+• Replicates: 100 for each topology-intensity pairs within each branch length.

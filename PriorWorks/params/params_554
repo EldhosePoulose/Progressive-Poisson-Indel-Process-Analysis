@@ -1,0 +1,16 @@
+alphabet=DNA
+alignment=true
+init.tree=user
+input.sequence.sites_to_use=all
+model=PIP(model=K80(kappa=2.0),lambda=447.21359549995793,mu=0.4472135954999579)
+rate_distribution=Constant
+optimization=ND-BFGS(derivatives=BFGS)
+optimization.ignore_parameters=BrLen,Model
+optimization.reparametrization=false
+optimisation.alignment=false
+optimization.topology=false
+input.sequence.file=/scratch/IAS/AnisGroup/pouloeld/execs/5.exec/output/sim-53_sequence.txt
+input.tree.file=/scratch/IAS/AnisGroup/common/data/trees/unb_ultrameric_tree_b0.1.nwk
+output.msa.file=/scratch/IAS/AnisGroup/pouloeld/MiniJATIoutput/miniJATI_out_msa/msa_out5_53.fa
+output.tree.file=/scratch/IAS/AnisGroup/pouloeld/MiniJATIoutput/TreeOUT/tree_out5_53.nwk
+output.estimates=/scratch/IAS/AnisGroup/pouloeld/MiniJATIoutput/outputestimates_miniJATI/log5_53
