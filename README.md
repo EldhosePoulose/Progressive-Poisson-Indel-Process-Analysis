@@ -27,9 +27,14 @@ ii. For reducing computational complexity  <br/>
 iii.Window functions and its size <br/>
 
 **Datasets**<br/>
+
 **MSA Evaluation**<br/>
+
 **Results and Discussions**<br/>
+
 **Conclusions and Future Works**<br/>
+
+
 **THE CONCLUSION**<br/>
 
 1. MAFFT and PRANK outperformed ProPIP in INDELible and real data (long indel data). <br/>
