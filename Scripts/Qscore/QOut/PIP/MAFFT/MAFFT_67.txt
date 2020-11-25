@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/PIP/MAFFT/mafftInferredMSA_P_66.fasta;Ref=/home/eldhose/Desktop/QScore/PIP/True/sim-66_MSA.fasta;Q=0.945;TC=0.874;Cline=0.957;Modeler=0.936

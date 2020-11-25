@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/real/MAFFT/mafftInferredMSA_r_3.fasta;Ref=/home/eldhose/Desktop/QScore/real/True/realData_3.fasta;Q=0.978;TC=0.931;Cline=0.98;Modeler=0.978

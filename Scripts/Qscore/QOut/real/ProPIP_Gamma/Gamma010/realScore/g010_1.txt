@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/real/ProPIP_Gamma/Gamma010/ProPIPgamma4inferredMSA_r_1.fasta;Ref=/home/eldhose/Desktop/QScore/real/True/realData_1.fasta;Q=0.885;TC=0.67;Cline=0.918;Modeler=0.903

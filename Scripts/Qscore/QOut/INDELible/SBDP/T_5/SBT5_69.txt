@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/INDELible/SBDP/T_5/ProPIPSB5inferredMSA_I_69.fasta;Ref=/home/eldhose/Desktop/QScore/INDELible/True/out_68_TRUE_1.fasta;Q=0.089;TC=0.033;Cline=0.094;Modeler=0.365

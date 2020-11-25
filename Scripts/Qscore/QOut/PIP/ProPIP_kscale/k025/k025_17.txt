@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/PIP/ProPIP_kscale/k025/ProPIPTruek025inferredMSA_P_17.fasta;Ref=/home/eldhose/Desktop/QScore/PIP/True/sim-16_MSA.fasta;Q=0.92;TC=0.839;Cline=0.94;Modeler=0.909

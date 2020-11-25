@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/PIP/PRANK/prankInferredMSA_P_75.fasta;Ref=/home/eldhose/Desktop/QScore/PIP/True/sim-75_MSA.fasta;Q=0.938;TC=0.851;Cline=0.957;Modeler=0.94

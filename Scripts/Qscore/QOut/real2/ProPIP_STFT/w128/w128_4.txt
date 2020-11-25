@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/real/ProPIP_STFT/w128/ProPIP_stft_w_128_MSA_r_4.fasta;Ref=/home/eldhose/Desktop/QScore/real/True/realData_4.fasta;Q=0.952;TC=0.781;Cline=0.965;Modeler=0.973

@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/real/PRANK/prankInferredMSA_r_1.fasta;Ref=/home/eldhose/Desktop/QScore/real/True/realData_1.fasta;Q=0.917;TC=0.784;Cline=0.939;Modeler=0.944

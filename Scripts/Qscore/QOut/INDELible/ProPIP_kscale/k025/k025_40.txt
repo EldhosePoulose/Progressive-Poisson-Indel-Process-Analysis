@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/INDELible/ProPIP_kscale/k025/ProPIPk0inferredMSA_I_39.fasta;Ref=/home/eldhose/Desktop/QScore/INDELible/True/out_39_TRUE_1.fasta;Q=0.949;TC=0.836;Cline=0.951;Modeler=0.944

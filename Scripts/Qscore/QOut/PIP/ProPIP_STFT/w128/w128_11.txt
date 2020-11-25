@@ -1,0 +1,1 @@
+Test=/home/eldhose/Desktop/QScore/PIP/ProPIP_STFT/w128/ProPIP_stft_w_128_MSA_P_11.fasta;Ref=/home/eldhose/Desktop/QScore/PIP/True/sim-10_MSA.fasta;Q=0.997;TC=0.991;Cline=0.997;Modeler=0.995
