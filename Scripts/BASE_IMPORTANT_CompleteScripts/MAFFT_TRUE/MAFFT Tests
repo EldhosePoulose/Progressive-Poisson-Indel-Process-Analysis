@@ -1,0 +1,7 @@
+MAFFT Tests
+
+1. MSA labels in Integer format
+2. TREE--- i) Convert labels in to integer format save as newick format as it is.
+		  ii) Newick format without semi-colon at the end.
+		 iii) Convert this into mafft tree format using ruby file
+3. run mafft command to align a pair of sequences.  

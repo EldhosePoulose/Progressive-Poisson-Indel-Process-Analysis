@@ -1,0 +1,41 @@
+PoissonModelSimulatorMain.nTaxa	8
+PoissonModelSimulatorMain.expectedLength	500.0
+PoissonModelSimulatorMain.changeIntensity	2.0
+PoissonModelSimulatorMain.nReplica	10
+PoissonModelSimulatorMain.treeRate	1.0
+PoissonModelSimulatorMain.rand	1
+PoissonModelSimulatorMain.useTKF	false
+PoissonModelSimulatorMain.fileTree	
+PoissonModelSimulatorMain.outdir	
+log.maxIndLevel	10
+log.msPerLine	1000
+log.file	C:\Users\jowk\Desktop\AR\Literature Review\Code\javaPIP\javaPIP\state\execs\13.exec\log
+log.stdout	true
+log.note	
+log.forcePrint	false
+log.maxPrintErrors	10000
+exec.disableSaveJar	true
+exec.execName	
+exec.create	true
+exec.monitor	true
+exec.execDir	
+exec.execPoolDir	C:\Users\jowk\Desktop\AR\Literature Review\Code\javaPIP\javaPIP\state\execs
+exec.actualExecPoolDir	
+exec.overwriteExecDir	false
+exec.useStandardExecPoolDirStrategy	true
+exec.printOptionsAndExit	false
+exec.miscOptions	
+exec.addToView	
+exec.recordPath	
+exec.charEncoding	
+exec.jarFiles	
+exec.dontInitializeJars	false
+exec.initializeJarsAfterDirCreation	false
+exec.makeThunk	false
+exec.thunkAutoQueue	false
+exec.thunkPriority	0
+exec.thunkMainClassName	
+exec.thunkJavaOpts	
+exec.thunkUseScala	false
+exec.thunkReqMemory	1024
+exec.dontCatchExceptions	false

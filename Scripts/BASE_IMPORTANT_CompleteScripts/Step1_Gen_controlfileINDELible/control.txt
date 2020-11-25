@@ -1,0 +1,521 @@
+[TYPE] AMINOACID 1
+
+[SETTINGS]
+   [ancestralprint]            NEW
+   [output]                    FASTA
+   [phylipextension]           phy
+   [nexusextension]            new
+   [fastaextension]            fasta
+   [randomseed]                1234567
+   [printrates]                TRUE
+   [insertaslowercase]         FALSE
+   [markdeletedinsertions]     TRUE
+   [printcodonsasaminoacids]   FALSE
+   [fileperrep]                TRUE
+
+[MODEL] WAGModel
+   [submodel]		  WAG
+   [indelmodel]      POW 1.7
+   [indelrate]		  0.05
+
+[TREE]	t_0 (((leaf_1:0.0072,leaf_6:0.1963)internal_1:0.2168,((leaf_5:0.3023,leaf_7:0.0374)internal_0:0.1148,leaf_3:0.1932)internal_2:0.0147)internal_3:0.0008,(leaf_2:0.0779,(leaf_0:0.4102,leaf_4:0.1192)internal_5:0.1117)internal_4:0.0008);
+
+[TREE]	t_1 (((leaf_1:0.0318,leaf_6:0.0079)internal_0:0.0235,leaf_3:0.1977)internal_2:0.1098,(((leaf_2:0.0936,leaf_5:0.0341)internal_1:0.0697,leaf_7:0.0489)internal_3:0.6097,(leaf_0:0.094,leaf_4:0.0075)internal_4:0.1886)internal_5:0.1098);
+
+[TREE]	t_2 (((leaf_0:0.2182,leaf_3:0.0328)internal_1:0.0245,(leaf_2:0.1071,leaf_6:0.0228)internal_0:0.1284)internal_4:0.206,((leaf_1:0.1509,(leaf_4:0.0454,leaf_7:0.2382)internal_2:0.0184)internal_3:0.2099,leaf_5:0.0372)internal_5:0.206);
+
+[TREE]	t_3 (((leaf_1:0.0262,leaf_5:0.162)internal_1:0.0791,leaf_6:0.1929)internal_4:0.0003,((leaf_0:0.158,leaf_4:0.143)internal_3:0.0572,((leaf_2:0.0409,leaf_7:0.0872)internal_0:0.0241,leaf_3:0.0404)internal_2:0.2561)internal_5:0.0003);
+
+[TREE]	t_4 ((((leaf_5:0.4273,leaf_7:0.0525)internal_1:0.0791,leaf_6:0.0536)internal_2:0.0002,leaf_3:0.1751)internal_3:0.2826,(((leaf_0:0.0257,leaf_1:0.4274)internal_0:0.0413,leaf_2:0.0691)internal_5:0.0972,leaf_4:0.0064)internal_4:0.2826);
+
+[TREE]	t_5 ((leaf_2:0.065,((leaf_3:0.2591,leaf_7:0.1389)internal_0:0.0695,leaf_6:0.0291)internal_2:0.0293)internal_4:0.0367,((leaf_0:0.1376,leaf_5:0.1692)internal_1:0.1117,(leaf_1:0.1177,leaf_4:0.0782)internal_3:0.2186)internal_5:0.0367);
+
+[TREE]	t_6 ((((leaf_5:0.0106,leaf_7:0.6536)internal_0:0.0002,leaf_3:0.0775)internal_3:0.106,leaf_6:0.0547)internal_4:0.0418,(((leaf_1:0.1641,leaf_4:0.1625)internal_1:0.1548,leaf_0:0.1101)internal_2:0.0526,leaf_2:0.0253)internal_5:0.0418);
+
+[TREE]	t_7 (((leaf_1:0.0063,leaf_7:0.1532)internal_3:0.1015,leaf_5:0.0836)internal_4:0.0071,((leaf_3:0.0762,leaf_6:0.0795)internal_1:0.3286,(leaf_0:0.0029,(leaf_2:0.0117,leaf_4:0.1718)internal_0:0.2169)internal_2:0.0291)internal_5:0.0071);
+
+[TREE]	t_8 ((leaf_1:0.0905,((leaf_4:0.0696,leaf_7:0.212)internal_0:0.2377,leaf_2:0.0087)internal_2:0.162)internal_4:0.0661,(((leaf_0:0.1246,leaf_6:0.1271)internal_1:0.01,leaf_3:0.1799)internal_3:0.0886,leaf_5:0.0475)internal_5:0.0661);
+
+[TREE]	t_9 (((leaf_0:0.1017,leaf_3:0.038)internal_1:0.1001,leaf_4:0.0123)internal_2:0.0067,((leaf_1:0.0032,leaf_5:0.2616)internal_3:0.2213,((leaf_6:0.0149,leaf_7:0.0078)internal_0:0.0125,leaf_2:0.0722)internal_4:0.2537)internal_5:0.0067);
+
+[TREE]	t_10 (((leaf_1:0.0326,leaf_5:0.1002)internal_0:0.0478,(leaf_0:0.005,leaf_7:0.362)internal_3:0.1919)internal_4:0.0006,(((leaf_2:0.1568,leaf_3:0.1795)internal_1:0.1925,leaf_4:0.0426)internal_2:0.2312,leaf_6:0.1519)internal_5:0.0006);
+
+[TREE]	t_11 ((((leaf_1:0.1148,leaf_2:0.1037)internal_0:0.0078,leaf_3:0.1893)internal_1:0.1818,leaf_6:0.3285)internal_2:0.0719,(leaf_0:0.0335,((leaf_5:0.3196,leaf_7:0.0553)internal_5:0.1236,leaf_4:0.1271)internal_4:0.091)internal_3:0.0719);
+
+[TREE]	t_12 (((leaf_1:0.0172,leaf_2:0.2328)internal_0:0.2538,(leaf_0:0.0443,leaf_4:0.4017)internal_2:0.3782)internal_3:0.1339,(((leaf_3:0.0462,leaf_5:0.2524)internal_1:0.0515,leaf_7:0.1279)internal_5:0.0116,leaf_6:0.0189)internal_4:0.1339);
+
+[TREE]	t_13 (((leaf_4:0.1171,leaf_7:0.3443)internal_0:0.1433,leaf_1:0.0751)internal_3:0.0365,(((leaf_3:0.0856,leaf_6:0.2781)internal_1:0.0866,leaf_5:0.0212)internal_2:0.2276,(leaf_0:0.302,leaf_2:0.0646)internal_5:0.3568)internal_4:0.0365);
+
+[TREE]	t_14 (((leaf_2:0.2108,leaf_7:0.0773)internal_2:0.0114,leaf_3:0.0257)internal_4:0.0323,(((leaf_1:0.0409,leaf_4:0.0732)internal_0:0.0962,leaf_0:0.5588)internal_1:0.2598,(leaf_5:0.2294,leaf_6:0.2175)internal_3:0.2608)internal_5:0.0323);
+
+[TREE]	t_15 (((leaf_1:0.0086,leaf_2:0.0261)internal_1:0.4798,(leaf_3:0.0437,leaf_7:0.0601)internal_2:0.4549)internal_3:0.0626,((leaf_0:0.1782,(leaf_4:0.0667,leaf_6:0.0172)internal_0:0.1555)internal_4:0.0378,leaf_5:0.0248)internal_5:0.0626);
+
+[TREE]	t_16 ((((leaf_2:0.157,leaf_4:0.067)internal_0:0.1498,leaf_0:0.2913)internal_1:0.0615,leaf_1:0.1416)internal_4:0.1271,(((leaf_3:0.0165,leaf_7:0.3243)internal_2:0.021,leaf_5:0.0122)internal_3:0.5976,leaf_6:0.1013)internal_5:0.1271);
+
+[TREE]	t_17 ((((leaf_0:0.1408,leaf_4:0.1122)internal_2:0.0262,leaf_5:0.0289)internal_3:0.1367,leaf_6:0.0066)internal_4:0.0404,(((leaf_3:0.3629,leaf_7:0.2515)internal_0:0.1444,leaf_2:0.035)internal_1:0.0824,leaf_1:0.0011)internal_5:0.0404);
+
+[TREE]	t_18 (((leaf_2:0.0093,leaf_5:0.1389)internal_0:0.4068,leaf_6:0.3238)internal_1:0.0001,(((leaf_4:0.0409,leaf_7:0.1624)internal_2:0.0622,leaf_3:0.058)internal_3:0.2777,(leaf_0:0.2101,leaf_1:0.0215)internal_5:0.221)internal_4:0.0001);
+
+[TREE]	t_19 (((leaf_3:0.0573,leaf_6:0.2678)internal_0:0.1763,((leaf_1:0.0331,leaf_2:0.0415)internal_1:0.1664,leaf_0:0.043)internal_2:0.1238)internal_4:0.0252,((leaf_4:0.1006,leaf_7:0.043)internal_3:0.1548,leaf_5:0.0235)internal_5:0.0252);
+
+[TREE]	t_20 ((((leaf_1:0.2361,leaf_3:0.212)internal_0:0.0958,leaf_2:0.0376)internal_3:0.037,(leaf_4:0.0277,leaf_6:0.2963)internal_2:0.0206)internal_4:0.0032,((leaf_0:0.1393,leaf_7:0.0746)internal_1:0.0046,leaf_5:0.0249)internal_5:0.0032);
+
+[TREE]	t_21 (((leaf_3:0.1578,leaf_6:0.1523)internal_1:0.2705,(leaf_2:0.1874,leaf_5:0.0777)internal_0:0.0362)internal_2:0.0153,(leaf_0:0.0791,((leaf_1:0.0813,leaf_4:0.02)internal_4:0.0934,leaf_7:0.2722)internal_5:0.6414)internal_3:0.0153);
+
+[TREE]	t_22 (((leaf_1:0.2834,leaf_6:0.0451)internal_1:0.3362,(leaf_2:0.1092,leaf_7:0.0178)internal_0:0.1323)internal_2:0.1006,(((leaf_0:0.0894,leaf_3:0.022)internal_5:0.167,leaf_4:0.0465)internal_4:0.0758,leaf_5:0.6251)internal_3:0.1006);
+
+[TREE]	t_23 ((((leaf_4:0.1348,leaf_7:0.0197)internal_1:0.1372,leaf_1:0.0586)internal_3:0.182,leaf_6:0.0844)internal_4:0.0235,((leaf_0:0.072,leaf_2:0.0959)internal_0:0.0289,(leaf_3:0.2958,leaf_5:0.0509)internal_2:0.0116)internal_5:0.0235);
+
+[TREE]	t_24 ((((leaf_2:0.0604,leaf_6:0.0367)internal_0:0.3779,leaf_0:0.1203)internal_1:0.0248,leaf_5:0.1966)internal_3:0.0332,((leaf_1:0.0368,leaf_4:0.0644)internal_2:0.1433,(leaf_3:0.2277,leaf_7:0.4434)internal_5:0.0409)internal_4:0.0332);
+
+[TREE]	t_25 (((leaf_0:0.1219,leaf_6:0.1174)internal_1:0.2045,(leaf_4:0.3983,leaf_5:0.018)internal_2:0.1809)internal_4:0.2691,(((leaf_1:0.225,leaf_2:0.2425)internal_0:0.043,leaf_3:0.0582)internal_3:0.1017,leaf_7:0.1114)internal_5:0.2691);
+
+[TREE]	t_26 ((((leaf_2:0.1959,leaf_4:0.0665)internal_0:0.0194,leaf_3:0.0928)internal_1:0.1903,leaf_1:0.1907)internal_2:0.0091,(leaf_0:0.4021,((leaf_6:0.0731,leaf_7:0.1114)internal_3:0.0071,leaf_5:0.2788)internal_4:0.097)internal_5:0.0091);
+
+[TREE]	t_27 (((leaf_1:0.0794,leaf_3:0.0707)internal_1:0.0736,(leaf_5:0.3722,leaf_6:0.0892)internal_3:0.0069)internal_4:0.0096,((leaf_2:0.1678,leaf_7:0.0257)internal_0:0.0323,(leaf_0:0.1323,leaf_4:0.0562)internal_2:0.2187)internal_5:0.0096);
+
+[TREE]	t_28 ((leaf_2:0.3239,leaf_7:0.1418)internal_3:0.0268,(((leaf_0:0.0567,leaf_4:0.2733)internal_0:0.0341,leaf_5:0.0758)internal_1:0.3166,(leaf_1:0.1358,(leaf_3:0.0335,leaf_6:0.0444)internal_2:0.0952)internal_4:0.1202)internal_5:0.0268);
+
+[TREE]	t_29 ((((leaf_2:0.0458,leaf_4:0.0529)internal_0:0.0194,leaf_3:0.1019)internal_1:0.3442,leaf_6:0.1351)internal_3:0.005,((leaf_0:0.0264,leaf_1:0.0397)internal_2:0.1293,(leaf_5:0.0427,leaf_7:0.0172)internal_4:0.0359)internal_5:0.005);
+
+[TREE]	t_30 (((leaf_3:0.0404,leaf_4:0.0854)internal_1:0.1884,(leaf_1:0.2298,leaf_2:0.0084)internal_2:0.1197)internal_4:0.1543,(((leaf_0:0.011,leaf_6:0.2094)internal_0:0.0248,leaf_7:0.0367)internal_3:0.0862,leaf_5:0.017)internal_5:0.1543);
+
+[TREE]	t_31 (((leaf_2:0.193,leaf_7:0.0301)internal_2:0.0958,leaf_3:0.0076)internal_4:0.004,(((leaf_0:0.021,leaf_5:0.2156)internal_0:0.0063,leaf_1:0.0743)internal_1:0.2513,(leaf_4:0.0215,leaf_6:0.0576)internal_3:0.3206)internal_5:0.004);
+
+[TREE]	t_32 (((leaf_2:0.1914,leaf_6:0.0068)internal_0:0.1223,leaf_5:0.0102)internal_3:0.0134,((leaf_3:0.1122,leaf_4:0.0533)internal_1:0.0861,(leaf_0:0.1561,(leaf_1:0.1863,leaf_7:0.0872)internal_2:0.0078)internal_5:0.0457)internal_4:0.0134);
+
+[TREE]	t_33 (((leaf_3:0.1759,leaf_5:0.1306)internal_0:0.0345,leaf_4:0.1967)internal_1:0.0054,((leaf_1:0.0064,leaf_6:0.4483)internal_3:0.1073,((leaf_0:0.1197,leaf_2:0.0424)internal_2:0.0138,leaf_7:0.1191)internal_5:0.2876)internal_4:0.0054);
+
+[TREE]	t_34 (((leaf_0:0.0147,(leaf_3:0.0091,leaf_7:0.3637)internal_2:0.0131)internal_3:0.0252,leaf_1:0.0504)internal_4:0.0413,(((leaf_5:0.0388,leaf_6:0.056)internal_0:0.4227,leaf_2:0.0382)internal_1:0.0523,leaf_4:0.1554)internal_5:0.0413);
+
+[TREE]	t_35 ((((leaf_0:0.0618,leaf_1:0.1078)internal_0:0.095,leaf_7:0.0382)internal_1:0.0129,leaf_5:0.107)internal_2:0.024,(leaf_2:0.0327,((leaf_3:0.0394,leaf_6:0.2055)internal_3:0.082,leaf_4:0.0985)internal_5:0.1235)internal_4:0.024);
+
+[TREE]	t_36 (((leaf_4:0.1763,leaf_7:0.1339)internal_1:0.0974,(leaf_1:0.186,leaf_2:0.1112)internal_0:0.0718)internal_3:0.0592,((leaf_0:0.2945,(leaf_5:0.0824,leaf_6:0.0844)internal_2:0.0096)internal_5:0.2386,leaf_3:0.0243)internal_4:0.0592);
+
+[TREE]	t_37 (((leaf_0:0.0006,(leaf_6:0.0187,leaf_7:0.0396)internal_2:0.2454)internal_3:0.0997,leaf_1:0.1937)internal_4:0.0139,(((leaf_2:0.062,leaf_3:0.104)internal_0:0.0105,leaf_4:0.0749)internal_1:0.0518,leaf_5:0.2187)internal_5:0.0139);
+
+[TREE]	t_38 ((((leaf_1:0.0137,leaf_7:0.0248)internal_0:0.0152,leaf_6:0.4734)internal_1:0.0385,leaf_5:0.1855)internal_3:0.0138,((leaf_0:0.0542,leaf_2:0.1082)internal_2:0.03,(leaf_3:0.0483,leaf_4:0.2073)internal_5:0.01)internal_4:0.0138);
+
+[TREE]	t_39 ((((leaf_3:0.035,leaf_5:0.0504)internal_0:0.0594,leaf_7:0.1607)internal_1:0.0389,leaf_4:0.2321)internal_4:0.0174,(((leaf_0:0.1518,leaf_1:0.1277)internal_2:0.169,leaf_6:0.2424)internal_3:0.0348,leaf_2:0.0935)internal_5:0.0174);
+
+[TREE]	t_40 ((((leaf_1:0.1193,leaf_2:0.1803)internal_0:0.2335,leaf_7:0.1805)internal_2:0.1337,leaf_6:0.0598)internal_4:0.0418,(((leaf_0:0.0349,leaf_5:0.0903)internal_1:0.0785,leaf_4:0.2334)internal_3:0.1534,leaf_3:0.114)internal_5:0.0418);
+
+[TREE]	t_41 ((leaf_1:0.2593,leaf_6:0.1341)internal_0:0.0161,(((leaf_0:0.1604,leaf_7:0.0773)internal_1:0.1097,leaf_5:0.039)internal_2:0.2803,((leaf_2:0.0016,leaf_4:0.2164)internal_3:0.0664,leaf_3:0.0228)internal_5:0.137)internal_4:0.0161);
+
+[TREE]	t_42 (((leaf_1:0.0356,leaf_6:0.0053)internal_0:0.0473,leaf_0:0.0531)internal_1:0,(((leaf_3:0.0723,leaf_7:0.4958)internal_2:0.012,leaf_2:0.071)internal_3:0.3192,(leaf_4:0.1486,leaf_5:0.1271)internal_4:0.0447)internal_5:0);
+
+[TREE]	t_43 (((leaf_3:0.0208,leaf_5:0.5701)internal_1:0.2163,(leaf_0:0.0106,leaf_1:0.1416)internal_0:0.1578)internal_2:0.0228,((leaf_2:0.0296,leaf_6:0.1109)internal_3:0.0882,(leaf_4:0.3035,leaf_7:0.1077)internal_5:0.0009)internal_4:0.0228);
+
+[TREE]	t_44 ((((leaf_5:0.1214,leaf_6:0.1808)internal_1:0.0644,leaf_1:0.371)internal_2:0.0299,leaf_4:0.0445)internal_3:0.0417,(leaf_0:0.121,((leaf_2:0.0309,leaf_7:0.0918)internal_0:0.0934,leaf_3:0.0562)internal_5:0.0029)internal_4:0.0417);
+
+[TREE]	t_45 (((leaf_0:0.2944,leaf_2:0.5181)internal_1:0.0985,leaf_1:0.0964)internal_4:0.0189,(((leaf_4:0.2294,leaf_7:0.0911)internal_0:0.2113,leaf_3:0.0659)internal_3:0.1026,(leaf_5:0.0327,leaf_6:0.3773)internal_2:0.1162)internal_5:0.0189);
+
+[TREE]	t_46 (((leaf_1:0.0596,leaf_6:0.0888)internal_1:0.0983,(leaf_5:0.3539,leaf_7:0.0156)internal_0:0.096)internal_3:0.0135,((leaf_2:0.0513,leaf_4:0.0611)internal_2:0.5071,(leaf_0:0.0158,leaf_3:0.007)internal_5:0.0391)internal_4:0.0135);
+
+[TREE]	t_47 ((((leaf_1:0.103,leaf_7:0.0105)internal_0:0.0468,leaf_6:0.1212)internal_2:0.0245,leaf_5:0.925)internal_3:0.0881,(leaf_2:0.4213,((leaf_3:0.0358,leaf_4:0.1278)internal_1:0.0898,leaf_0:0.1663)internal_5:0.3391)internal_4:0.0881);
+
+[TREE]	t_48 ((((leaf_0:0.0025,leaf_1:0.0785)internal_0:0.0737,leaf_7:0.0673)internal_2:0.024,leaf_6:0.0429)internal_3:0.015,(((leaf_2:0.1413,leaf_4:0.0001)internal_1:0.1534,leaf_3:0.4094)internal_5:0.2342,leaf_5:0.0313)internal_4:0.015);
+
+[TREE]	t_49 (((leaf_2:0.0754,leaf_6:0.003)internal_0:0.0409,(leaf_0:0.1193,leaf_5:0.0092)internal_2:0.1826)internal_3:0.0501,((leaf_1:0.4737,leaf_3:0.4316)internal_1:0.0339,(leaf_4:0.0153,leaf_7:0.2531)internal_5:0.2376)internal_4:0.0501);
+
+[TREE]	t_50 ((leaf_1:0.2215,((leaf_3:0.0907,leaf_6:0.0072)internal_1:0.0748,leaf_0:0.0847)internal_2:0.1168)internal_4:0.0737,(((leaf_2:0.0468,leaf_7:0.0295)internal_0:0.0161,leaf_4:0.4526)internal_3:0.1133,leaf_5:0.0739)internal_5:0.0737);
+
+[TREE]	t_51 (((leaf_0:0.436,leaf_4:0.0554)internal_1:0.1197,(leaf_3:0.1461,leaf_7:0.1267)internal_0:0.0468)internal_3:0.0068,(leaf_1:0.0516,((leaf_5:0.1832,leaf_6:0.0721)internal_2:0.0849,leaf_2:0.1386)internal_5:0.1806)internal_4:0.0068);
+
+[TREE]	t_52 ((((leaf_1:0.1106,leaf_5:0.002)internal_2:0.2592,leaf_2:0.0304)internal_3:0.0939,leaf_4:0.2087)internal_4:0.0443,((leaf_3:0.0114,leaf_7:0.1447)internal_1:0.0138,(leaf_0:0.0039,leaf_6:0.2593)internal_0:0.3957)internal_5:0.0443);
+
+[TREE]	t_53 ((((leaf_0:0.1848,leaf_3:0.2935)internal_1:0.0774,leaf_6:0.0518)internal_2:0.0096,leaf_5:0.1467)internal_3:0.0844,(leaf_2:0.0418,((leaf_1:0.3078,leaf_4:0.0693)internal_0:0.3287,leaf_7:0.5637)internal_5:0.1695)internal_4:0.0844);
+
+[TREE]	t_54 ((((leaf_0:0.0417,leaf_6:0.0336)internal_1:0.0197,leaf_7:0.1158)internal_3:0.1958,(leaf_2:0.0608,leaf_5:0.0464)internal_2:0.0713)internal_4:0.0711,((leaf_3:0.0072,leaf_4:0.2647)internal_0:0.123,leaf_1:0.1421)internal_5:0.0711);
+
+[TREE]	t_55 (((leaf_6:0.0694,leaf_7:0.0372)internal_0:0.1882,((leaf_3:0.1226,leaf_4:0.0521)internal_1:0.198,leaf_2:0.0224)internal_3:0.387)internal_4:0.0215,(leaf_0:0.0684,(leaf_1:0.0376,leaf_5:0.0556)internal_2:0.1696)internal_5:0.0215);
+
+[TREE]	t_56 (((leaf_2:0.087,leaf_7:0.229)internal_1:0.009,(leaf_1:0.0084,leaf_5:0.4354)internal_2:0.0879)internal_3:0.0078,(leaf_0:0.0021,((leaf_4:0.2893,leaf_6:0.1097)internal_0:0.0437,leaf_3:0.0806)internal_5:0.1538)internal_4:0.0078);
+
+[TREE]	t_57 ((((leaf_1:0.4186,leaf_3:0.0368)internal_0:0.3972,leaf_4:0.155)internal_1:0.1171,leaf_0:0.447)internal_2:0.0989,(((leaf_2:0.1567,leaf_6:0.0949)internal_4:0.0123,leaf_5:0.0048)internal_5:0.126,leaf_7:0.0839)internal_3:0.0989);
+
+[TREE]	t_58 ((((leaf_4:0.3212,leaf_5:0.1105)internal_0:0.0377,leaf_2:0.0369)internal_1:0.0042,leaf_0:0.0733)internal_2:0.0498,(((leaf_1:0.0707,leaf_3:0.0736)internal_3:0.0186,leaf_7:0.6212)internal_5:0.0338,leaf_6:0.0883)internal_4:0.0498);
+
+[TREE]	t_59 ((((leaf_1:0.0263,leaf_5:0.0759)internal_0:0.0643,leaf_7:0.0258)internal_1:0.3338,(leaf_0:0.0411,leaf_4:0.0164)internal_2:0.3899)internal_4:0.0279,((leaf_2:0.229,leaf_6:0.1093)internal_3:0.0606,leaf_3:0.049)internal_5:0.0279);
+
+[TREE]	t_60 (((leaf_3:0.4391,leaf_7:0.0692)internal_2:0.0171,leaf_2:0.8681)internal_3:0.0287,((leaf_4:0.176,leaf_6:0.0444)internal_1:0.0557,((leaf_0:0.23,leaf_5:0.0485)internal_0:0.2506,leaf_1:0.1161)internal_4:0.2156)internal_5:0.0287);
+
+[TREE]	t_61 ((((leaf_4:0.0573,leaf_7:0.0728)internal_0:0.159,leaf_2:0.0988)internal_2:0.2598,leaf_5:0.0643)internal_3:0.0002,((leaf_0:0.0635,leaf_6:0.0135)internal_1:0.1784,(leaf_1:0.2453,leaf_3:0.0034)internal_5:0.0463)internal_4:0.0002);
+
+[TREE]	t_62 ((((leaf_0:0.083,leaf_2:0.0938)internal_1:0.0116,leaf_3:0.325)internal_2:0.0628,leaf_5:0.0612)internal_4:0.0012,(leaf_1:0.0859,((leaf_6:0.1151,leaf_7:0.224)internal_0:0.1129,leaf_4:0.1128)internal_3:0.0302)internal_5:0.0012);
+
+[TREE]	t_63 (((leaf_3:0.337,leaf_5:0.0596)internal_0:0.0609,((leaf_4:0.5136,leaf_7:0.0923)internal_2:0.2109,leaf_2:0.1308)internal_3:0.1931)internal_4:0.0267,((leaf_1:0.0082,leaf_6:0.2508)internal_1:0.2888,leaf_0:0.0609)internal_5:0.0267);
+
+[TREE]	t_64 ((((leaf_3:0.2493,leaf_5:0.0849)internal_1:0.0337,leaf_7:0.0821)internal_2:0.2082,leaf_2:0.441)internal_3:0.0401,(leaf_0:0.319,((leaf_1:0.0474,leaf_4:0.1576)internal_0:0.0859,leaf_6:0.1002)internal_4:0.0593)internal_5:0.0401);
+
+[TREE]	t_65 ((leaf_1:0.0251,((leaf_4:0.2168,leaf_5:0.0157)internal_0:0.0224,leaf_2:0.0933)internal_2:0.2276)internal_3:0.0362,(((leaf_0:0.0181,leaf_3:0.0694)internal_1:0.2347,leaf_7:0.0329)internal_4:0.1424,leaf_6:0.0848)internal_5:0.0362);
+
+[TREE]	t_66 (((leaf_1:0.5275,leaf_3:0.0831)internal_1:0.0806,(leaf_4:0.2494,leaf_5:0.2061)internal_0:0.1294)internal_3:0.1805,((leaf_0:0.1965,leaf_2:0.167)internal_2:0.1527,(leaf_6:0.1622,leaf_7:0.0152)internal_5:0.0537)internal_4:0.1805);
+
+[TREE]	t_67 (((leaf_0:0.0087,(leaf_5:0.3165,leaf_7:0.0725)internal_0:0.076)internal_2:0.0929,leaf_4:0.0376)internal_3:0.0023,(leaf_2:0.0396,((leaf_1:0.0717,leaf_3:0.1)internal_1:0.207,leaf_6:0.0408)internal_4:0.0108)internal_5:0.0023);
+
+[TREE]	t_68 ((((leaf_6:0.0362,leaf_7:0.2462)internal_1:0.2243,leaf_1:0.1184)internal_3:0.0637,leaf_5:0.1285)internal_4:0.0001,(((leaf_0:0.0314,leaf_2:0.2422)internal_0:0.0142,leaf_3:0.0111)internal_2:0.1394,leaf_4:0.0322)internal_5:0.0001);
+
+[TREE]	t_69 ((((leaf_0:0.1497,leaf_2:0.0581)internal_0:0.2844,leaf_7:0.0014)internal_1:0.2395,leaf_3:0.0281)internal_2:0.0237,(leaf_1:0.0802,((leaf_4:0.0108,leaf_6:0.0074)internal_3:0.215,leaf_5:0.0284)internal_5:0.0668)internal_4:0.0237);
+
+[TREE]	t_70 ((((leaf_0:0.0149,leaf_1:0.1712)internal_0:0.0144,leaf_4:0.0059)internal_1:0.1278,leaf_5:0.0345)internal_2:0.0487,((leaf_2:0.1861,leaf_7:0.0256)internal_3:0.1303,(leaf_3:0.0472,leaf_6:0.0542)internal_5:0.0753)internal_4:0.0487);
+
+[TREE]	t_71 ((((leaf_6:0.2017,leaf_7:0.1567)internal_0:0.1559,leaf_0:0.0252)internal_1:0.0442,leaf_1:0.1009)internal_2:0.0033,(leaf_3:0.0792,((leaf_2:0.1085,leaf_5:0.0559)internal_3:0.5906,leaf_4:0.082)internal_4:0.1237)internal_5:0.0033);
+
+[TREE]	t_72 (((leaf_3:0.4764,leaf_4:0.0082)internal_1:0.0001,(leaf_1:0.0448,leaf_7:0.039)internal_2:0.1632)internal_3:0.0407,(((leaf_2:0.1783,leaf_5:0.086)internal_0:0.2476,leaf_0:0.2765)internal_5:0.2547,leaf_6:0.0873)internal_4:0.0407);
+
+[TREE]	t_73 ((leaf_2:0.0499,leaf_6:0.0324)internal_2:0.033,(((leaf_0:0.0687,leaf_5:0.0159)internal_1:0.0324,leaf_4:0.0276)internal_3:0.1981,((leaf_1:0.3035,leaf_3:0.0547)internal_0:0.0083,leaf_7:0.0395)internal_5:0.1363)internal_4:0.033);
+
+[TREE]	t_74 ((((leaf_1:0.0905,leaf_6:0.2546)internal_0:0.0989,leaf_0:0.205)internal_1:0.0247,leaf_3:0.0008)internal_2:0.12,(((leaf_4:0.0072,leaf_5:0.0209)internal_3:0.0617,leaf_2:0.1096)internal_5:0.1126,leaf_7:0.002)internal_4:0.12);
+
+[TREE]	t_75 (((leaf_0:0.3462,leaf_6:0.0384)internal_3:0.1299,((leaf_5:0.0523,leaf_7:0.2159)internal_0:0.1368,leaf_2:0.1835)internal_2:0.2967)internal_4:0.0875,((leaf_3:0.0214,leaf_4:0.0155)internal_1:0.329,leaf_1:0.1491)internal_5:0.0875);
+
+[TREE]	t_76 (((leaf_2:0.4949,leaf_6:0.1771)internal_2:0.1147,leaf_7:0.0987)internal_3:0.0071,(((leaf_1:0.0603,leaf_4:0.0818)internal_0:0.1384,leaf_5:0.0132)internal_1:0.0322,(leaf_0:0.1128,leaf_3:0.2541)internal_5:0.0126)internal_4:0.0071);
+
+[TREE]	t_77 ((leaf_3:0.1086,leaf_7:0.0761)internal_1:0.0044,(((leaf_0:0.0588,leaf_6:0.0613)internal_0:0.3415,leaf_1:0.3547)internal_2:0.0458,((leaf_2:0.0145,leaf_4:0.0634)internal_4:0.0346,leaf_5:0.1566)internal_5:0.0865)internal_3:0.0044);
+
+[TREE]	t_78 ((leaf_2:0.0348,leaf_3:0.2472)internal_3:0.0192,(((leaf_4:0.0575,leaf_6:0.0636)internal_1:0.7867,leaf_7:0.0218)internal_2:0.3336,((leaf_0:0.2553,leaf_5:0.2058)internal_0:0.0155,leaf_1:0.4805)internal_4:0.1328)internal_5:0.0192);
+
+[TREE]	t_79 ((leaf_4:0.0078,leaf_5:0.0439)internal_0:0.0037,((leaf_0:0.3462,(leaf_3:0.0453,leaf_7:0.3041)internal_2:0.1239)internal_3:0.1754,((leaf_1:0.0653,leaf_6:0.0324)internal_1:0.0647,leaf_2:0.0128)internal_4:0.0633)internal_5:0.0037);
+
+[TREE]	t_80 ((((leaf_1:0.0561,leaf_6:0.0603)internal_0:0.1568,leaf_0:0.1265)internal_3:0.0635,leaf_4:0.0128)internal_4:0.0717,(((leaf_3:0.3234,leaf_5:0.1522)internal_1:0.2026,leaf_7:0.0389)internal_2:0.1413,leaf_2:0.1201)internal_5:0.0717);
+
+[TREE]	t_81 (((leaf_1:0.061,leaf_2:0.0162)internal_0:0.1493,(leaf_3:0.0977,leaf_4:0.0264)internal_2:0.229)internal_4:0.0369,(((leaf_0:0.0004,leaf_6:0.0303)internal_1:0.1248,leaf_7:0.1886)internal_3:0.3038,leaf_5:0.0783)internal_5:0.0369);
+
+[TREE]	t_82 ((((leaf_0:0.056,leaf_1:0.023)internal_0:0.0689,leaf_5:0.0139)internal_1:0.0628,leaf_2:0.0838)internal_3:0.001,((leaf_3:0.0879,leaf_7:0.0112)internal_2:0.0294,(leaf_4:0.2763,leaf_6:0.2969)internal_5:0.1396)internal_4:0.001);
+
+[TREE]	t_83 ((((leaf_0:0.0225,leaf_1:0.0009)internal_1:0.0012,leaf_7:0.344)internal_3:0.1883,leaf_3:0.0176)internal_4:0.1336,((leaf_2:0.1106,leaf_6:0.0938)internal_0:0.1699,(leaf_4:0.0504,leaf_5:0.1077)internal_2:0.3909)internal_5:0.1336);
+
+[TREE]	t_84 (((leaf_2:0.0812,leaf_6:0.1525)internal_0:0.0278,leaf_7:0.1979)internal_3:0.0106,((leaf_1:0.0888,leaf_5:0.0806)internal_2:0.5414,((leaf_3:0.0318,leaf_4:0.1734)internal_1:0.1154,leaf_0:0.2991)internal_4:0.1636)internal_5:0.0106);
+
+[TREE]	t_85 (((leaf_3:0.0278,leaf_6:0.0757)internal_0:1.0057,leaf_2:0.0316)internal_3:0.0308,((leaf_1:0.278,leaf_7:0.104)internal_2:0.0355,((leaf_0:0.0216,leaf_5:0.0183)internal_1:0.3248,leaf_4:0.1286)internal_4:0.1231)internal_5:0.0308);
+
+[TREE]	t_86 ((((leaf_3:0.7809,leaf_7:0.2245)internal_0:0.0152,leaf_1:0.0577)internal_1:0.0537,leaf_0:0.0798)internal_3:0.0283,(((leaf_2:0.0788,leaf_5:0.09)internal_2:0.0106,leaf_6:0.0137)internal_4:0.3288,leaf_4:0.1291)internal_5:0.0283);
+
+[TREE]	t_87 ((((leaf_0:0.1123,leaf_3:0.1522)internal_0:0.027,leaf_1:0.0589)internal_1:0.0612,leaf_7:0.1367)internal_3:0.2148,((leaf_4:0.0305,leaf_5:0.1927)internal_2:0.0138,(leaf_2:0.0183,leaf_6:0.5759)internal_5:0.0162)internal_4:0.2148);
+
+[TREE]	t_88 ((((leaf_2:0.0989,leaf_7:0.0317)internal_0:0.1656,leaf_5:0.0443)internal_1:0.2934,leaf_3:0.2892)internal_3:0.1739,(leaf_0:0.027,(leaf_1:0.0901,(leaf_4:0.0116,leaf_6:0.0502)internal_2:0.165)internal_5:0.1281)internal_4:0.1739);
+
+[TREE]	t_89 ((((leaf_1:0.0156,leaf_2:0.0843)internal_0:0.3209,leaf_7:0.1184)internal_1:0.2178,leaf_3:0.1735)internal_3:0.0871,((leaf_0:0.2103,(leaf_4:0.152,leaf_5:0.0067)internal_2:0.074)internal_4:0.0257,leaf_6:0.2651)internal_5:0.0871);
+
+[TREE]	t_90 (((leaf_3:0.2752,leaf_7:0.0906)internal_1:0.0016,(leaf_1:0.1368,leaf_2:0.216)internal_0:0.0313)internal_3:0.0373,(leaf_0:0.0127,((leaf_4:0.0923,leaf_5:0.0828)internal_2:0.2339,leaf_6:0.0251)internal_4:0.1371)internal_5:0.0373);
+
+[TREE]	t_91 (((leaf_2:0.179,leaf_5:0.154)internal_0:0.1567,(leaf_0:0.0071,leaf_1:0.1303)internal_3:0.0758)internal_4:0.0212,(((leaf_4:0.0573,leaf_7:0.1006)internal_1:0.2711,leaf_6:0.005)internal_2:0.0315,leaf_3:0.197)internal_5:0.0212);
+
+[TREE]	t_92 ((leaf_1:0.3568,((leaf_2:0.006,leaf_3:0.3391)internal_1:0.0941,leaf_6:0.0838)internal_2:0.0296)internal_3:0.0648,(((leaf_0:0.0533,leaf_5:0.1204)internal_0:0.0116,leaf_7:0.0272)internal_5:0.0962,leaf_4:0.1155)internal_4:0.0648);
+
+[TREE]	t_93 (((leaf_0:0.041,leaf_2:0.2864)internal_1:0.0884,(leaf_4:0.1412,leaf_5:0.4)internal_2:0.096)internal_3:0.0044,((leaf_6:0.0007,leaf_7:0.0387)internal_0:0.0189,(leaf_1:0.034,leaf_3:0.0189)internal_4:0.0041)internal_5:0.0044);
+
+[TREE]	t_94 ((((leaf_1:0.3471,leaf_4:0.0424)internal_1:0.0353,leaf_3:0.1218)internal_3:0.0174,leaf_6:0.1663)internal_4:0.1015,((leaf_0:0.117,leaf_7:0.0261)internal_0:0.3052,(leaf_2:0.0502,leaf_5:0.245)internal_2:0.0752)internal_5:0.1015);
+
+[TREE]	t_95 ((((leaf_3:0.1813,leaf_7:0.0144)internal_0:0.1214,leaf_2:0.0985)internal_1:0.1897,leaf_0:0.1665)internal_2:0.0415,(((leaf_1:0.2825,leaf_4:0.0509)internal_4:0.0915,leaf_6:0.0696)internal_5:0.0694,leaf_5:0.086)internal_3:0.0415);
+
+[TREE]	t_96 (((leaf_1:0.0867,leaf_6:0.0614)internal_0:0.0087,leaf_0:0.185)internal_1:0.0018,((leaf_3:0.3084,leaf_5:0.0479)internal_2:0.0975,((leaf_2:0.0182,leaf_4:0.0284)internal_3:0.1087,leaf_7:0.0166)internal_5:0.0885)internal_4:0.0018);
+
+[TREE]	t_97 (((leaf_2:0.0107,leaf_4:0.0422)internal_0:0.1792,(leaf_3:0.0255,leaf_5:0.0926)internal_2:0.2411)internal_4:0.0598,((leaf_0:0.0119,leaf_7:0.1311)internal_1:0.1448,(leaf_1:0.0054,leaf_6:0.0084)internal_3:0.1178)internal_5:0.0598);
+
+[TREE]	t_98 ((((leaf_2:0.0351,leaf_7:0.0347)internal_0:0.0418,leaf_5:0.2342)internal_2:0.0273,leaf_3:0.1202)internal_3:0.0508,(leaf_1:0.021,((leaf_4:0.1924,leaf_6:0.2961)internal_1:0.1752,leaf_0:0.1601)internal_5:0.0231)internal_4:0.0508);
+
+[TREE]	t_99 (((leaf_3:0.0005,leaf_7:0.1147)internal_1:0.3373,(leaf_0:0.5554,leaf_6:0.0039)internal_0:0.6919)internal_3:0.0894,(((leaf_1:0.0363,leaf_2:0.113)internal_2:0.1134,leaf_4:0.1773)internal_4:0.0017,leaf_5:0.0599)internal_5:0.0894);
+
+[PARTITIONS]	Pname_0 [t_0 WAGModel 200]
+
+[PARTITIONS]	Pname_1 [t_1 WAGModel 200]
+
+[PARTITIONS]	Pname_2 [t_2 WAGModel 200]
+
+[PARTITIONS]	Pname_3 [t_3 WAGModel 200]
+
+[PARTITIONS]	Pname_4 [t_4 WAGModel 200]
+
+[PARTITIONS]	Pname_5 [t_5 WAGModel 200]
+
+[PARTITIONS]	Pname_6 [t_6 WAGModel 200]
+
+[PARTITIONS]	Pname_7 [t_7 WAGModel 200]
+
+[PARTITIONS]	Pname_8 [t_8 WAGModel 200]
+
+[PARTITIONS]	Pname_9 [t_9 WAGModel 200]
+
+[PARTITIONS]	Pname_10 [t_10 WAGModel 200]
+
+[PARTITIONS]	Pname_11 [t_11 WAGModel 200]
+
+[PARTITIONS]	Pname_12 [t_12 WAGModel 200]
+
+[PARTITIONS]	Pname_13 [t_13 WAGModel 200]
+
+[PARTITIONS]	Pname_14 [t_14 WAGModel 200]
+
+[PARTITIONS]	Pname_15 [t_15 WAGModel 200]
+
+[PARTITIONS]	Pname_16 [t_16 WAGModel 200]
+
+[PARTITIONS]	Pname_17 [t_17 WAGModel 200]
+
+[PARTITIONS]	Pname_18 [t_18 WAGModel 200]
+
+[PARTITIONS]	Pname_19 [t_19 WAGModel 200]
+
+[PARTITIONS]	Pname_20 [t_20 WAGModel 200]
+
+[PARTITIONS]	Pname_21 [t_21 WAGModel 200]
+
+[PARTITIONS]	Pname_22 [t_22 WAGModel 200]
+
+[PARTITIONS]	Pname_23 [t_23 WAGModel 200]
+
+[PARTITIONS]	Pname_24 [t_24 WAGModel 200]
+
+[PARTITIONS]	Pname_25 [t_25 WAGModel 200]
+
+[PARTITIONS]	Pname_26 [t_26 WAGModel 200]
+
+[PARTITIONS]	Pname_27 [t_27 WAGModel 200]
+
+[PARTITIONS]	Pname_28 [t_28 WAGModel 200]
+
+[PARTITIONS]	Pname_29 [t_29 WAGModel 200]
+
+[PARTITIONS]	Pname_30 [t_30 WAGModel 200]
+
+[PARTITIONS]	Pname_31 [t_31 WAGModel 200]
+
+[PARTITIONS]	Pname_32 [t_32 WAGModel 200]
+
+[PARTITIONS]	Pname_33 [t_33 WAGModel 200]
+
+[PARTITIONS]	Pname_34 [t_34 WAGModel 200]
+
+[PARTITIONS]	Pname_35 [t_35 WAGModel 200]
+
+[PARTITIONS]	Pname_36 [t_36 WAGModel 200]
+
+[PARTITIONS]	Pname_37 [t_37 WAGModel 200]
+
+[PARTITIONS]	Pname_38 [t_38 WAGModel 200]
+
+[PARTITIONS]	Pname_39 [t_39 WAGModel 200]
+
+[PARTITIONS]	Pname_40 [t_40 WAGModel 200]
+
+[PARTITIONS]	Pname_41 [t_41 WAGModel 200]
+
+[PARTITIONS]	Pname_42 [t_42 WAGModel 200]
+
+[PARTITIONS]	Pname_43 [t_43 WAGModel 200]
+
+[PARTITIONS]	Pname_44 [t_44 WAGModel 200]
+
+[PARTITIONS]	Pname_45 [t_45 WAGModel 200]
+
+[PARTITIONS]	Pname_46 [t_46 WAGModel 200]
+
+[PARTITIONS]	Pname_47 [t_47 WAGModel 200]
+
+[PARTITIONS]	Pname_48 [t_48 WAGModel 200]
+
+[PARTITIONS]	Pname_49 [t_49 WAGModel 200]
+
+[PARTITIONS]	Pname_50 [t_50 WAGModel 200]
+
+[PARTITIONS]	Pname_51 [t_51 WAGModel 200]
+
+[PARTITIONS]	Pname_52 [t_52 WAGModel 200]
+
+[PARTITIONS]	Pname_53 [t_53 WAGModel 200]
+
+[PARTITIONS]	Pname_54 [t_54 WAGModel 200]
+
+[PARTITIONS]	Pname_55 [t_55 WAGModel 200]
+
+[PARTITIONS]	Pname_56 [t_56 WAGModel 200]
+
+[PARTITIONS]	Pname_57 [t_57 WAGModel 200]
+
+[PARTITIONS]	Pname_58 [t_58 WAGModel 200]
+
+[PARTITIONS]	Pname_59 [t_59 WAGModel 200]
+
+[PARTITIONS]	Pname_60 [t_60 WAGModel 200]
+
+[PARTITIONS]	Pname_61 [t_61 WAGModel 200]
+
+[PARTITIONS]	Pname_62 [t_62 WAGModel 200]
+
+[PARTITIONS]	Pname_63 [t_63 WAGModel 200]
+
+[PARTITIONS]	Pname_64 [t_64 WAGModel 200]
+
+[PARTITIONS]	Pname_65 [t_65 WAGModel 200]
+
+[PARTITIONS]	Pname_66 [t_66 WAGModel 200]
+
+[PARTITIONS]	Pname_67 [t_67 WAGModel 200]
+
+[PARTITIONS]	Pname_68 [t_68 WAGModel 200]
+
+[PARTITIONS]	Pname_69 [t_69 WAGModel 200]
+
+[PARTITIONS]	Pname_70 [t_70 WAGModel 200]
+
+[PARTITIONS]	Pname_71 [t_71 WAGModel 200]
+
+[PARTITIONS]	Pname_72 [t_72 WAGModel 200]
+
+[PARTITIONS]	Pname_73 [t_73 WAGModel 200]
+
+[PARTITIONS]	Pname_74 [t_74 WAGModel 200]
+
+[PARTITIONS]	Pname_75 [t_75 WAGModel 200]
+
+[PARTITIONS]	Pname_76 [t_76 WAGModel 200]
+
+[PARTITIONS]	Pname_77 [t_77 WAGModel 200]
+
+[PARTITIONS]	Pname_78 [t_78 WAGModel 200]
+
+[PARTITIONS]	Pname_79 [t_79 WAGModel 200]
+
+[PARTITIONS]	Pname_80 [t_80 WAGModel 200]
+
+[PARTITIONS]	Pname_81 [t_81 WAGModel 200]
+
+[PARTITIONS]	Pname_82 [t_82 WAGModel 200]
+
+[PARTITIONS]	Pname_83 [t_83 WAGModel 200]
+
+[PARTITIONS]	Pname_84 [t_84 WAGModel 200]
+
+[PARTITIONS]	Pname_85 [t_85 WAGModel 200]
+
+[PARTITIONS]	Pname_86 [t_86 WAGModel 200]
+
+[PARTITIONS]	Pname_87 [t_87 WAGModel 200]
+
+[PARTITIONS]	Pname_88 [t_88 WAGModel 200]
+
+[PARTITIONS]	Pname_89 [t_89 WAGModel 200]
+
+[PARTITIONS]	Pname_90 [t_90 WAGModel 200]
+
+[PARTITIONS]	Pname_91 [t_91 WAGModel 200]
+
+[PARTITIONS]	Pname_92 [t_92 WAGModel 200]
+
+[PARTITIONS]	Pname_93 [t_93 WAGModel 200]
+
+[PARTITIONS]	Pname_94 [t_94 WAGModel 200]
+
+[PARTITIONS]	Pname_95 [t_95 WAGModel 200]
+
+[PARTITIONS]	Pname_96 [t_96 WAGModel 200]
+
+[PARTITIONS]	Pname_97 [t_97 WAGModel 200]
+
+[PARTITIONS]	Pname_98 [t_98 WAGModel 200]
+
+[PARTITIONS]	Pname_99 [t_99 WAGModel 200]
+
+[EVOLVE]
+Pname_0 1 out_0
+Pname_1 1 out_1
+Pname_2 1 out_2
+Pname_3 1 out_3
+Pname_4 1 out_4
+Pname_5 1 out_5
+Pname_6 1 out_6
+Pname_7 1 out_7
+Pname_8 1 out_8
+Pname_9 1 out_9
+Pname_10 1 out_10
+Pname_11 1 out_11
+Pname_12 1 out_12
+Pname_13 1 out_13
+Pname_14 1 out_14
+Pname_15 1 out_15
+Pname_16 1 out_16
+Pname_17 1 out_17
+Pname_18 1 out_18
+Pname_19 1 out_19
+Pname_20 1 out_20
+Pname_21 1 out_21
+Pname_22 1 out_22
+Pname_23 1 out_23
+Pname_24 1 out_24
+Pname_25 1 out_25
+Pname_26 1 out_26
+Pname_27 1 out_27
+Pname_28 1 out_28
+Pname_29 1 out_29
+Pname_30 1 out_30
+Pname_31 1 out_31
+Pname_32 1 out_32
+Pname_33 1 out_33
+Pname_34 1 out_34
+Pname_35 1 out_35
+Pname_36 1 out_36
+Pname_37 1 out_37
+Pname_38 1 out_38
+Pname_39 1 out_39
+Pname_40 1 out_40
+Pname_41 1 out_41
+Pname_42 1 out_42
+Pname_43 1 out_43
+Pname_44 1 out_44
+Pname_45 1 out_45
+Pname_46 1 out_46
+Pname_47 1 out_47
+Pname_48 1 out_48
+Pname_49 1 out_49
+Pname_50 1 out_50
+Pname_51 1 out_51
+Pname_52 1 out_52
+Pname_53 1 out_53
+Pname_54 1 out_54
+Pname_55 1 out_55
+Pname_56 1 out_56
+Pname_57 1 out_57
+Pname_58 1 out_58
+Pname_59 1 out_59
+Pname_60 1 out_60
+Pname_61 1 out_61
+Pname_62 1 out_62
+Pname_63 1 out_63
+Pname_64 1 out_64
+Pname_65 1 out_65
+Pname_66 1 out_66
+Pname_67 1 out_67
+Pname_68 1 out_68
+Pname_69 1 out_69
+Pname_70 1 out_70
+Pname_71 1 out_71
+Pname_72 1 out_72
+Pname_73 1 out_73
+Pname_74 1 out_74
+Pname_75 1 out_75
+Pname_76 1 out_76
+Pname_77 1 out_77
+Pname_78 1 out_78
+Pname_79 1 out_79
+Pname_80 1 out_80
+Pname_81 1 out_81
+Pname_82 1 out_82
+Pname_83 1 out_83
+Pname_84 1 out_84
+Pname_85 1 out_85
+Pname_86 1 out_86
+Pname_87 1 out_87
+Pname_88 1 out_88
+Pname_89 1 out_89
+Pname_90 1 out_90
+Pname_91 1 out_91
+Pname_92 1 out_92
+Pname_93 1 out_93
+Pname_94 1 out_94
+Pname_95 1 out_95
+Pname_96 1 out_96
+Pname_97 1 out_97
+Pname_98 1 out_98
+Pname_99 1 out_99

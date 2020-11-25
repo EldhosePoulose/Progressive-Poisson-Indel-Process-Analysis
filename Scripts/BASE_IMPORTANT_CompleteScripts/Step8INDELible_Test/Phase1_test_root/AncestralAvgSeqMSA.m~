@@ -1,0 +1,68 @@
+clc
+clear all
+
+%paths
+%addpath("/Users/pouloeld/Documents/INDELIble/INDELiIble_SIM/INDELible_sim_NewickTrees/4_POW_1.7_method1_5000replicates/test4/test4_IR_0.05")
+TestPath= '/Users/pouloeld/Documents/INDELIble/INDELiIble_SIM/INDELible_sim_NewickTrees/4_POW_1.7_method1_5000replicates/test4/test4_IR_0.05';
+
+
+Ancestralfiles= dir(fullfile(TestPath,'*_ANCESTRAL_1.fasta'));
+allAncestralNames= {Ancestralfiles.name};
+tk= regexp(allAncestralNames,'((?<=out_)\d*)|((?<=_ANCESTRAL_1))','match');
+[~,tii]= sortrows(str2double(cat(1,tk{:})));
+allAncestralNames= allAncestralNames(tii);
+% nIter= length(allAncestralNames);
+
+MSAfiles= dir(fullfile(TestPath,'*_TRUE_1.fasta'));
+MSANames= {MSAfiles.name};
+tk= regexp(MSANames,'((?<=out_)\d*)|((?<=_TRUE_1))','match');
+[~,tii]= sortrows(str2double(cat(1,tk{:})));
+MSANames= MSANames(tii);
+nIter= length(MSANames);
+
+gap= {'*','-'};
+ungap= '';
+ 
+
+for names=1:nIter
+    insLength=0;
+    aaLength=0;
+    
+    Ancestralmsa= fastaread(allAncestralNames(names));
+    TrueMSA= fastaread(MSANames(names));
+    % MSAlength(names)= numel(TrueMSA(7,1).Sequence);
+    
+    for k=1:8
+        SeqMSA(k,1).Sequence= replace(TrueMSA(k,1).Sequence,gap,ungap);
+    end
+    
+    for j=1:8
+      LofSeq(j)= numel(SeqMSA(j,1).Sequence);
+    end
+    
+    AvgSeq= mean(LofSeq);
+    SeqperMSA(names)=AvgSeq;  %For plot
+    
+    for i=1:length(Ancestralmsa(7,1).Sequence)
+        LatROOT(names)=length(Ancestralmsa(7,1).Sequence);
+        if strcmp(Ancestralmsa(7,1).Sequence(i),'*')
+            insLength=insLength+1;
+        else
+            aaLength= aaLength+1;
+        end    
+    end
+    AAatROOT(names)=aaLength;
+    IatROOT(names)=insLength;
+end
+
+
+z=SeqperMSA;
+%z(z>200)=[];
+%subplot(2,1,1);
+histogram(z,1000,'Normalization','probability')
+xlabel("Average Sequence Length per MSA")
+ylabel("prob")
+% title("INDEL rate= 0.05")
+title("Lambda=0.01, Mu= 0.05")
+
+

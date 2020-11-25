@@ -1,0 +1,20 @@
+[TYPE] AMINOACID 1
+[SETTINGS]
+	[ancestralprint]			NEW			
+	[output]					FASTA		
+	[phylipextension]			phy			
+	[nexusextension]			new			
+	[fastaextension]			fasta		
+	[randomseed]				1234567		
+	[printrates]				TRUE		
+	[insertaslowercase]			FALSE		
+	[markdeletedinsertions]		TRUE		
+	[printcodonsasaminoacids]	FALSE		
+	[fileperrep]				TRUE		
+[MODEL] WAGModel
+	[submodel]		WAG 				
+	[indelmodel]	POW 1.7				
+	[indelrate]		0.05				
+[PARTITIONS]	taxa8 [tree8 WAGModel 200]
+[EVOLVE]	taxa8 1 out_1
+[TREE] tree8 (((leaf_1:0.007246778796502863,leaf_6:0.19630532168246378)internal_1:0.2168389466452822,((leaf_5:0.30230790327199014,leaf_7:0.03738899691253414)internal_0:0.11476034192161574,leaf_3:0.19321219832190542)internal_2:0.014736040514823516)internal_3:8.268069076213187E-4,(leaf_2:0.07785094725310522,(leaf_0:0.41024344278171887,leaf_4:0.11920697145954443)internal_5:0.11170097162713079)internal_4:8.268069076213187E-4)root;

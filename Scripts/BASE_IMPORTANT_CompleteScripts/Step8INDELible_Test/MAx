@@ -1,0 +1,11 @@
+Previously I plotted 
+
+Each Replica/MSA (X-axis)  vs L+num* (Y-axis)
+Each Replica/MSA (X-axis)  vs num*   (Y-axis) 
+
+When we plot Average sequence length per MSA
+
+For each MSA, the MSA length is same as the length at the ROOT. For Sequence length we take MSA and ungap them, but now we have different length of sequences on each taxa. So I have to take mean of this and plot this. Is this the procedure?
+
+
+For me I have 5000 replicates, For each sequence I took length of each taxa and took mean of it. Like wise I have 5000 mean values.

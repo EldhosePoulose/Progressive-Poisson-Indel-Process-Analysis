@@ -1,0 +1,8 @@
+Previously I plotted 
+
+Each Replica/MSA (X-axis)  vs L+num* (Y-axis)
+Each Replica/MSA (X-axis)  vs num*   (Y-axis) 
+
+When we plot Average sequence length per MSA
+
+For each MSA, the MSA length is same as the length at the ROOT.

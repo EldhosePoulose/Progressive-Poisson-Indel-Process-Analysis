@@ -1,0 +1,16 @@
+Dear all
+ 
+Thank you again for attending our meeting today. Here is the link to the HPC User Wiki:
+ 
+http://wiki.hpc.zhaw.ch/hpcuserwiki/
+ 
+In addition, this link takes you directly to the "Get an account"  page:
+ 
+http://wiki.hpc.zhaw.ch/hpcuserwiki/index.php/Access:New%3F_Get_an_account
+ 
+As far as I see, we already have an account for pouloeld from the past, so no need to request a new one.
+ 
+Kind regards,
+ 
+Pascal
+ 
